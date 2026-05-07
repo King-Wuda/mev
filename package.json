@@ -1,0 +1,25 @@
+{
+  "name": "mev-scanner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Multi-chain MEV transaction scanner (read-only)",
+  "scripts": {
+    "scan": "tsx src/index.ts",
+    "scan:base": "tsx src/index.ts base",
+    "scan:monad": "tsx src/index.ts monad",
+    "scan:berachain": "tsx src/index.ts berachain",
+    "scan:abstract": "tsx src/index.ts abstract",
+    "scan:hyperevm": "tsx src/index.ts hyperevm",
+    "scan:all": "tsx src/index.ts all",
+    "opps": "tsx src/scan-opps.ts"
+  },
+  "dependencies": {
+    "viem": "^2.21.55"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
