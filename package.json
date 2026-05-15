@@ -12,7 +12,8 @@
     "scan:abstract": "tsx src/index.ts abstract",
     "scan:hyperevm": "tsx src/index.ts hyperevm",
     "scan:all": "tsx src/index.ts all",
-    "opps": "tsx src/scan-opps.ts"
+    "opps": "tsx src/scan-opps.ts",
+    "v4-lp": "tsx uniswap/scan.ts"
   },
   "dependencies": {
     "viem": "^2.21.55"
